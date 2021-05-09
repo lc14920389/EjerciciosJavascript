@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8">
+<script>
+    let dia,mes,año;
+    dia=prompt('Introduzca los días del mes:','');
+    mes=parseInt(dia);
+
+    if (dia==31)
+    {
+        document.write('Son los meses Enero, Marzo, Mayo, Julio, Agosto, Octubre y Diciembre.');
+    }
+
+    else
+    {
+    if (dia==30)
+     {   document.write('Son los meses Abril, Junio, Septiembre y Noviembre.');
+    }
+    
+    else 
+    
+    if (dia==29 || 28)
+     {   document.write('El mes es Febrero');
+    }
+}
+</script>
+</head>
+</html>
